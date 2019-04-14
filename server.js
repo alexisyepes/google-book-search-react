@@ -18,7 +18,7 @@ app.use(routes);
 
 
 // Connect to the Mongo DB
-mongoose.connect("mongodb://alex:s877df68%@ds139956.mlab.com:39956/heroku_cz7qz114", { useNewUrlParser: true });
+mongoose.connect("mongodb://heroku_cz7qz114:69aigkj8r2sp005qrnodhan9eg@ds139956.mlab.com:39956/heroku_cz7qz114", { useNewUrlParser: true });
 var MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/googlebooks";
 app.get("*", (req, res) => {
   res.sendFile(path.join(__dirname, "./client/build/index.html"));
