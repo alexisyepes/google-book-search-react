@@ -19,7 +19,7 @@ app.use(routes);
 
 // Connect to the Mongo DB
 mongoose.connect("mongodb://alex:s877df68%^ftf@ds237955.mlab.com:37955/heroku_2sn8tw5g", { useNewUrlParser: true });
-var MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/newscraperdb";
+var MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/googlebooks";
 app.get("*", (req, res) => {
   res.sendFile(path.join(__dirname, "./client/build/index.html"));
 });
