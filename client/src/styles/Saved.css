@@ -1,0 +1,25 @@
+.savedBooksTitle {
+    width: 100%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: -30px;
+    color: black;
+    font-weight: bold;
+}
+
+.bookSavedAuthor {
+    margin-top: 40px;
+    margin-left: 30px;
+    color: rgb(7, 0, 0);
+}
+
+.bookDescription {
+    color: black;
+}
+
+#bookIcon {
+    padding: 20px;
+    margin-left: 50px;
+}

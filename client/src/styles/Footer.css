@@ -1,0 +1,14 @@
+#footerText {
+    text-align: center;
+    font-size: 20px;
+}
+.page-footer {
+    background: black;
+    color: white;
+    padding-top: 20px;
+    Padding-bottom: 20px;
+}
+.footerContainer {
+    margin-bottom: 0px;
+    margin-top: 200px;
+}

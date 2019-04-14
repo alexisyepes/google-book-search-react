@@ -1,0 +1,25 @@
+.searchBox {
+    border-style: groove;
+    background: rgb(39, 37, 37);
+    margin-bottom: 50px;
+    margin-top: 15px;
+    border-radius: 15px;
+}
+
+.formTitle {
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    color: white;
+}
+
+.search-btn {
+    margin-bottom: 30px;
+}
+
+.search {
+    font-size: 30px;
+    margin-left: 20px;
+    margin-top: 20px;
+    color: white;
+}
