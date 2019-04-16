@@ -8,7 +8,7 @@ function Footer() {
             <div className="footer-copyright">
                 <div className="container">
                     <div id="footerText"><b>© 2019 Alexis Yepes Sanabria ||| University of Toronto Bootcamp</b>
-                        <a className="grey-text text-lighten-4 right" href="link">
+                        <a className="grey-text text-lighten-4 right" href="https://github.com/alexisyepes/google-book-search-react">
 
                         <br></br><b>Code Reference</b></a>
 

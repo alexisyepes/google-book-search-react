@@ -1,29 +1,18 @@
-# Create React Express App
+Link to deployed app: https://googlebooksearch-sanabria.herokuapp.com/
 
-## About This Boilerplate
+# Google-Book-Search-App
 
-This setup allows for a Node/Express/React app which can be easily deployed to Heroku.
+![alt text](https://res.cloudinary.com/bootcamp2019/image/upload/v1555447486/googleBookScreenShot.png)
 
-The front-end React app will auto-reload as it's updated via webpack dev server, and the backend Express app will auto-reload independently with nodemon.
+This is a Full-stack app made with google-book APIs and React. All types of books are available through google-play store, but you have to buy them yourself :) .
 
-## Starting the app locally
 
-Start by installing front and backend dependencies. While in this directory, run the following command:
+## Built With
 
-```
-npm install
-```
+* [React](https://github.com/facebook/react) - The Web framework used.
+* [Webpack](https://webpack.js.org) - Task manager and Bundling tool.
+* [Google book API](https://developers.google.com/books/docs/v1/getting_started) - Fetch data through the API.
 
-This should install node modules within the server and the client folder.
 
-After both installations complete, run the following command in your terminal:
+![alt text](https://res.cloudinary.com/bootcamp2019/image/upload/v1555447494/googleBookScreenShot1.png)
 
-```
-npm start
-```
-
-Your app should now be running on <http://localhost:3000>. The Express server should intercept any AJAX requests from the client.
-
-## Deployment (Heroku)
-
-To deploy, simply add and commit your changes, and push to Heroku. As is, the NPM scripts should take care of the rest.
