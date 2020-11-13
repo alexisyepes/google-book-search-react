@@ -1,25 +1,25 @@
 .searchBox {
-    border-style: groove;
-    background: rgb(39, 37, 37);
-    margin-bottom: 50px;
-    margin-top: 15px;
-    border-radius: 15px;
+  border-style: groove;
+  background: rgba(39, 37, 37, 0.815);
+  margin-bottom: 50px;
+  margin-top: 15px;
+  border-radius: 10px;
 }
 
 .formTitle {
-    font-size: 20px;
-    margin-left: 20px;
-    margin-top: 20px;
-    color: white;
+  font-size: 20px;
+  margin-left: 20px;
+  margin-top: 20px;
+  color: white;
 }
 
 .search-btn {
-    margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 .search {
-    font-size: 30px;
-    margin-left: 20px;
-    margin-top: 20px;
-    color: white;
+  font-size: 30px;
+  margin-left: 20px;
+  margin-top: 20px;
+  color: white;
 }

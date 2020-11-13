@@ -1,25 +1,25 @@
 #searchTitle {
-    text-align: center;
-    font-weight: bold;
-    font-size: 35px;
-    margin-top: 50px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 35px;
+  margin-top: 50px;
 }
 
 .searchBox {
-    border-style: groove;
+  border-style: groove;
 }
 
 .formTitle {
-    font-size: 20px;
-    margin-left: 20px;
+  font-size: 20px;
+  margin-left: 20px;
 }
 
 .search-btn {
-    margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 .mainBox {
-    border-radius: 20px;
-    margin-bottom: 20px;
-    background: rgb(44, 57, 236);
+  border-radius: 10px;
+  margin-bottom: 20px;
+  background: rgba(44, 165, 236, 0.767);
 }
