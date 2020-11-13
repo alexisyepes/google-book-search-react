@@ -4,7 +4,7 @@ const mongoose = require("mongoose");
 const PORT = process.env.PORT || 3001;
 const app = express();
 const routes = require("./routes");
-
+require("dotenv").config();
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
@@ -16,14 +16,17 @@ if (process.env.NODE_ENV === "production") {
 // Add routes
 app.use(routes);
 
-
 // Connect to the Mongo DB
-mongoose.connect("mongodb://heroku_cz7qz114:69aigkj8r2sp005qrnodhan9eg@ds139956.mlab.com:39956/heroku_cz7qz114", { useNewUrlParser: true });
-var MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/googlebooks";
-app.get("*", (req, res) => {
-  res.sendFile(path.join(__dirname, "./client/build/index.html"));
-});
+mongoose.connect(
+  `mongodb+srv://book-search:${process.env.MONGO_ATLAS}@cluster0.hq2hp.mongodb.net/book-search?retryWrites=true&w=majority`,
 
-app.listen(PORT, () => {
-  console.log(`🌎 ==> API server now on port ${PORT}!`);
+  {
+    useUnifiedTopology: true,
+    useNewUrlParser: true,
+  }
+);
+
+// Start the server
+app.listen(PORT, function () {
+  console.log(`🌎  ==> API Server now listening on PORT ${PORT}!`);
 });
